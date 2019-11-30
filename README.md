@@ -1,6 +1,6 @@
-## docker-laravel 
+# docker-laravel 
 
-# 導入手順
+## 導入手順
 
 1.git cloneする
 
@@ -8,12 +8,12 @@
 
 3.docker-compose up -d
 
-# ポートフォワーディング
+### ポートフォワーディング
 
 * 8000→php
 * 80→phpmyadmin
 
-# laravel
+### laravel
 
 * docker-compose exec app bashで入ってcomposerを使って
 　<br>```composer create-project --prefer-dist laravel/laravel my-laravel-app```
