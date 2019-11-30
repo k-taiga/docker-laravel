@@ -18,3 +18,6 @@
 * docker-compose exec app bashで入ってcomposerを使って
 　<br>```composer create-project --prefer-dist laravel/laravel my-laravel-app```
   <br>で作ってください
+
+
+※.envとvendorディレクトリは各laravelプロジェクトごとに異なるため、composerでローカルで作成してそのプロジェクトをpullする
