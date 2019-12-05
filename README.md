@@ -20,4 +20,4 @@
   <br>で作ってください
 
 
-※.envとvendorディレクトリは各laravelプロジェクトごとに異なるため、composerでローカルで作成してそのプロジェクトをpullする
+※.envとvendorディレクトリは各laravelプロジェクトごとに異なるため、プロジェクトをpullしcomposer updateと.envsampleー＞.envに変更する
