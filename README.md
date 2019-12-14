@@ -22,8 +22,4 @@
 
 ※.envとvendorディレクトリは各laravelプロジェクトごとに異なるため、プロジェクトをpullしcomposer updateと.env.sampleー＞.envに変更する
 
- またlaravelプロジェクトをpullして取得する場合はapplication keyが作成されていないため、
- 
- php artisan key:generate
- 
-　を実行する
+ またlaravelプロジェクトをpullして取得する場合はapplication keyが作成されていないため、php artisan key:generateを実行する
